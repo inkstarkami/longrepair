@@ -1,4 +1,4 @@
-# Bug Repair Paper Artifact
+# LongRepair Artifact
 
 This repository provides scripts for training a bug-repair LLM (SFT then
 GRPO with a custom diff/coverage reward), generating SEARCH/REPLACE
