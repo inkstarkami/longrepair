@@ -1,6 +1,6 @@
 # LongRepair: Enhancing Multi-Hunk Automated Program Repair via Reasoning-Oriented Imitation and Reinforcement Learning
 
-This repository provides scripts for model training and patch generation, used in paper LongRepair: Enhancing Multi-Hunk Automated Program Repair via Reasoning-Oriented Imitation and Reinforcement Learning.
+This repository provides scripts for model training and patch generation, used in paper **LongRepair: Enhancing Multi-Hunk Automated Program Repair via Reasoning-Oriented Imitation and Reinforcement Learning**.
 
 ---
 
