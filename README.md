@@ -1,9 +1,6 @@
 # LongRepair Artifact
 
-This repository provides scripts for training a bug-repair LLM (SFT then
-GRPO with a custom diff/coverage reward), generating SEARCH/REPLACE
-patches for Defects4J, and validating those patches against the original
-test suites.
+This repository provides scripts for model training and patch generation.
 
 ---
 
