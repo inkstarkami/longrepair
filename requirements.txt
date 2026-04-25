@@ -1,0 +1,19 @@
+# Python dependencies for the bug-repair paper artifact.
+#
+# Versions are pinned to a known-working set; relax as needed.
+# Install with: pip install -r requirements.txt
+#
+# Note: the training pipeline additionally requires a working `verl`
+# installation. Follow https://github.com/volcengine/verl for that, since
+# the right `verl` version depends on your CUDA / vLLM / Ray stack and is
+# best installed from source rather than from PyPI.
+
+# ---- Inference / patch generation (inference/) ----
+torch>=2.7.1
+transformers>=4.55.4
+peft>=0.15.2
+tqdm>=4.67.1
+fire>=0.7.0
+
+# ---- Patch validation (inference/src/validate_patch.py) ----
+javalang>=0.13.0
